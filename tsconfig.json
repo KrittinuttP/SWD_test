@@ -1,9 +1,4 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    // other options as needed
-  },
   "files": [],
   "references": [
     {
