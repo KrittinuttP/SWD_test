@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+}
+
+.card-center {
+    width: '100%';
+    text-align: 'center';
+    display: 'ruby';
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.card-hover:hover {
+    background-color: rgb(93, 155, 235);
+}
+
+.main-page {
+    margin: 25% auto;
+}
+
+.form-input {
+    padding: 10px;
+    border: 2px solid rgb(78, 78, 78);
+
+    border-radius: 15px;
+}
+
+.FromTable {
+    padding-top: 30px;
+}

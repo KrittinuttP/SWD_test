@@ -1,0 +1,104 @@
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.icon-100 {
+  height: 100px;
+  width: 100px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+.oval {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.trapezoid {
+  border-bottom: 50px solid #555;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
+
+.parallelogram {
+  width: 100px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #555;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid #555;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 75px solid #555;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 75px solid #555;
+  border-bottom: 50px solid transparent;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 75px solid #555;
+  border-bottom: 50px solid transparent;
+}
